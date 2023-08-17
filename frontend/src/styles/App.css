@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+.navbar{
+  background-color: #4C8BF5;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  vertical-align: center;
+}
+.logo{
+  margin: 20px;
+}
+.project-name{
+  float:right;
+  color: white;
+  padding-right: 25px;
+  padding-top: 5px;
+}
+.navbar-columns{
+  list-style: none;
+  display: inline-flex;
+  justify-content:center;
+  flex-direction: row;
+}
+
+.navbar-columns li{
+  float: left;
+}
+.navbar-columns li a{
+  font-size: large;
+  display: block;
+  color:white;
+  padding: 0px 20px;
+  line-height: 40px;
+  width: fit-content;
+  text-decoration: none;
+  
+}
+.navbar-columns li a:hover{
+  background-color: #1a73e8;
+  border-radius: 20px;
+  color:white;
+}
